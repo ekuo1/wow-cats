@@ -1,0 +1,84 @@
+<DOCTYPE html>
+<!-- comment ! -->
+
+<html>
+  
+  <head>
+    <title>{{author}}'s app</title>
+    <a href="./cats.html">Cats</a>
+  </head>
+
+  <h1 id="top"> Hello {{name}}!</h1>
+  <p> This is a test website </p>
+
+  <main>
+  <h2> My name is Emily</h2>
+
+  <p> I like cats. Click for more: </p>
+  <a href="https://www.reddit.com/r/blackcats/">
+  <img src= "https://i.ytimg.com/vi/sTM83yyCOMU/maxresdefault.jpg" alt="Cute black catto" width="200" height="121" >
+  </a>
+  <br>
+  <p>Why cats are great:</p>
+  <ul>
+    <li>cute</li>
+    <li>fluff</li>
+    <li>better than dogs</li>
+    <li>soft</li>
+  </ul>
+  <h4>How to cat:</h4>
+  <ol> 
+    <li>Look 'em in the eyes</li>
+    <li>Assert dominance</li>
+    <li>Sniff paw</li>
+    <li>Do your best flop</li>
+    <li>Bite when they try to touch belly</li>
+
+  <h3>Now that you are a cat, register your new life here:</h3>
+
+  <form action="/submit-cat" method="post">
+    <input type="text" name="name" placeholder="cat name" required>
+    <br>
+    <p>Colour:</p>
+    <input type="radio" name="colour" value = "black">Black</input>
+    <input type="radio" name="colour" value = "tuxedo">Tuxedo</input>
+    <input type="radio" name="colour" value = "tabby">Tabby</input>
+    <input type="radio" name="colour" value = "white">White</input>
+    <input type="radio" name="colour" value = "ginger">Ginger</input>
+    <br>
+    <p>How many lives do you have left?</p>
+    <select name="lives">
+      <option selected="selected" value="secret">Select an option...</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <br>
+    <p>Where do you like the scratches?</p>
+    <input type="checkbox" name="scratch" value="ear">Ear</input>
+    <input type="checkbox" name="scratch" value="chin">Chin</input>
+    <input type="checkbox" name="scratch" value="tum">Tum</input>
+    <input type="checkbox" name="scratch" value="back">Back</input>
+    <br>
+    <p>Please enter your bank details and social security number:</p>
+    <textarea name="secret"  cols="50" rows="4" required></textarea>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+  
+  </main>
+  
+  <br>
+  <footer id="bottom">The end.</footer>
+  
+  <a href="#top">Top</a>
+
+</html>
+
