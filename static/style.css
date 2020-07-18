@@ -2,12 +2,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
-form{
+#cat-form{
   background-color: silver;
+  padding: 50px;
 }
 
 h1{
-  color: green;
+  color: aquamarine;
+  font-size: 35px;
 }
 
 h2{
@@ -18,9 +20,6 @@ h2{
   color:darkslategray;
 }
 
-h3{
-  font-size:18px;
-}
 
 h4{
   color:purple;
@@ -29,9 +28,54 @@ h4{
 p{
 }
 
+nav{
+  background-color: darkslategray;
+  color: white;
+  font-size: 20px;
+}
+
+a{
+  color:inherit;
+  padding: 10px;
+  margin: 5px;
+  line-height:30px;
+  width:5px;
+}
+
+a:hover, a:active, a:visited{
+  color: aquamarine;
+}
+
 .thin-red-border{
   border-color: red;
   border-width:2px;
   border-style:solid;
   border-radius:5px;
+}
+
+.top{
+  background-color: lightgreen;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  font-size:20px;
+  line-height: 10px;
+  padding:0px;
+  margin:0px;
+  border-color: forestgreen;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.dots{
+  display:flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.intro{
+  text-align: center;
 }
