@@ -1,3 +1,4 @@
+
 *{
   font-family: 'Roboto', sans-serif;
 }
@@ -20,7 +21,7 @@ h1{
 }
 
 h2{
-  color: red;
+  color: blue;
 }
 
 .formq{
@@ -55,8 +56,8 @@ a:hover, a:active, a:visited{
   color: aquamarine;
 }
 
-.thin-red-border{
-  border-color: red;
+.thin-border{
+  border-color: blue;
   border-width:2px;
   border-style:solid;
   border-radius:5px;
@@ -83,6 +84,7 @@ a:hover, a:active, a:visited{
   display:flex;
   justify-content: space-around;
   font-size: 20px;
+  width: 1265px;
 }
 
 .dots-item{
@@ -90,6 +92,6 @@ a:hover, a:active, a:visited{
 }
 
 .dots-friend{
-  position: absolute;
-  margin-right: 750px;
+  position: absolute; 
+  width: 900px;
 }
