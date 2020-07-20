@@ -20,7 +20,9 @@
 
     <main>
       <div class="dots">
-        <div>
+        <div class="dots-item">
+        </div>
+        <div class="dots-friend">
           <h4>Why cats are great:</h4>
           <ul>
             <li>cute</li>
@@ -29,14 +31,16 @@
             <li>soft</li>
           </ul>
         </div>
-        <div class="intro">
-          <h2> My name is Emily</h2>
-          <p> I like cats. Click for more: </p>
-          <a href="https://www.reddit.com/r/blackcats/">
-          <img class="thin-red-border" src= "https://i.ytimg.com/vi/sTM83yyCOMU/maxresdefault.jpg" alt="Cute black catto" width="200" height="121" >
-          </a>
+        <div class="dots-item">
+          <center>
+            <h2> My name is Emily</h2>
+            <p> I like cats. Click for more: </p>
+            <a href="https://www.reddit.com/r/blackcats/">
+            <img class="thin-red-border" src= "https://i.ytimg.com/vi/sTM83yyCOMU/maxresdefault.jpg" alt="Cute black catto" width="200" height="121" >
+            </a>
+          </center>
         </div>
-        <div>
+        <div class="dots-item">
           <h4>How to cat:</h4>
           <ol> 
             <li>Look 'em in the eyes</li>
@@ -47,9 +51,11 @@
           </ol>
         </div>
       </div>
-      <center>
-        <h3>Now that you are a cat, register your new life here:</h3>
+      <br>
+      <div class="formz">
         <form id="cat-form" action="/submit-cat" method="post">
+          <h3>Now that you are a cat, register your new life here:</h3>
+          <p class="formq">Name:</p>
           <input type="text" name="name" placeholder="cat name" required>
           <br>
           <p class="formq">Colour:</p>
@@ -86,9 +92,8 @@
           <br>
           <br>
           <button type="submit">Submit</button>
-        </center>
-      </form>
-      
+        </form>
+      </div>
     </main>
     
     <br>

@@ -2,9 +2,16 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.formz{
+  display:flex;
+  justify-content: center;
+}
+
 #cat-form{
   background-color: silver;
+  width:500px;
   padding: 50px;
+  padding-top: 20px;
 }
 
 h1{
@@ -76,6 +83,11 @@ a:hover, a:active, a:visited{
   font-size: 20px;
 }
 
-.intro{
-  text-align: center;
+.dots-item{
+  width: 300px;
+}
+
+.dots-friend{
+  position: absolute;
+  margin-right: 750px;
 }
