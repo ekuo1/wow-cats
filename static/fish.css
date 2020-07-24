@@ -1,0 +1,16 @@
+*{
+  background-color: lightseagreen;
+  color:white;
+}
+
+a{
+  background-color: inherit;
+}
+nav{
+  background-color: darkslategray;
+  color: white;
+  font-size: 20px;
+  border: 2px solid darkslategray;
+  border-radius: 5px;
+}
+

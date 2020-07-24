@@ -13,6 +13,7 @@
   width:500px;
   padding: 50px;
   padding-top: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 h1{
@@ -21,7 +22,7 @@ h1{
 }
 
 h2{
-  color: blue;
+  color: green;
 }
 
 .formq{
@@ -31,6 +32,8 @@ h2{
 
 h4{
   color:purple;
+  opacity:0.7;
+  text-transform: none;
 }
 
 p{
@@ -57,10 +60,11 @@ a:hover, a:active, a:visited{
 }
 
 .thin-border{
-  border-color: blue;
+  border-color:green;
   border-width:2px;
   border-style:solid;
   border-radius:5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .top{
@@ -78,13 +82,18 @@ a:hover, a:active, a:visited{
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.fish{
+  position: fixed;
+  left: 90%;
 }
 
 .dots{
   display:flex;
   justify-content: space-around;
   font-size: 20px;
-  width: 1265px;
 }
 
 .dots-item{
@@ -92,6 +101,7 @@ a:hover, a:active, a:visited{
 }
 
 .dots-friend{
-  position: absolute; 
-  width: 900px;
+  position: relative;
+  width: 300px;
+  left: 120px;
 }
