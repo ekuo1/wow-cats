@@ -6,7 +6,7 @@ app=Flask(__name__)
 
 cats=[]
 
-@app.route('/')
+@app.route('/index.html')
 def hello_world():
     author = "Yummo"
     name = "World"
@@ -25,7 +25,7 @@ def signup_cat():
     name=request.form["name"]
     cats.append(name)
     print(cats)
-    return redirect('/')
+    return redirect('/index.html')
 
 if __name__== '__main__':
     app.run()
