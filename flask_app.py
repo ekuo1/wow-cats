@@ -16,6 +16,10 @@ def hello_world():
 def cat_world():
     return render_template("cats.html", cats=cats)
 
+@app.route('/fish.html')
+def fish_world():
+    return render_template("fish.html")
+
 @app.route('/submit-cat', methods=["POST"])
 def signup_cat():
     name=request.form["name"]
